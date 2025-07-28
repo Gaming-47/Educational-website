@@ -1,0 +1,76 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* Student Info */
+.student-info {
+    margin-bottom: 20px;
+}
+
+.student-info p {
+    margin-top: 5px;
+}
+
+/* Fee Details */
+.fee-details {
+    margin-bottom: 20px;
+}
+
+.fee-details p {
+    margin-top: 5px;
+}
+
+/* Payment History */
+.payment-history {
+    margin-bottom: 20px;
+}
+
+.payment-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-history th, 
+.payment-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.payment-history th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .payment-history table {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,186 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar .logo h1 img {
+    margin: 10px;
+    
+border: 3px solid white;
+    border-radius: 50px;
+    height: 70px;
+    
+}
+
+.navbar .menu-icon {
+    
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+ align-content: center;
+    width: 20%;
+    
+ 
+    
+}
+
+.navbar .menu-icon .bar {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+    top: 80%;
+    
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    color: red;
+    
+}
+
+.navbar .nav-links li {
+    margin: 0 0px;
+    top: 200%;
+    color: red;
+    
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px sold wh;
+    
+    border-radius:10 px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: #555;
+}
+
+/* Hamburger menu for mobile */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 90%;
+        background-color: #333;
+        position: absolute;
+        top: 20%;
+        align-content: center;
+    
+        
+        
+        left: 5%;
+align-items: center;
+
+        
+    }
+
+    .navbar .nav-links.show {
+        display: flex;
+    }
+
+    .navbar .menu-icon {
+        display: flex;
+    }
+}
+
+/* Content and Footer styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.contact-form,
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
