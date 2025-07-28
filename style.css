@@ -289,6 +289,9 @@ ul {
  nav{
     width: 100%;
  }
+ .hero{
+    width: 118%;
+ }
     .navbar-links {
         display: none;
         width: 100%;
@@ -327,7 +330,9 @@ ul {
            width: 400px;
     flex: 1;
     }
-
+    .programs{
+        width: 118%;
+    }
     .program-grid {
         grid-template-columns: 1fr;
     }
@@ -339,5 +344,11 @@ ul {
     .footer-links li {
         display: block;
         margin-bottom: 10px;
+    }
+    .testimonials{
+        width: 118%;
+    }
+    .footer{
+        width: 118%;
     }
 }
